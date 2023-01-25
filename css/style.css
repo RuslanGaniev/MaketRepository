@@ -234,7 +234,6 @@ main{
 }
 .main-block__button_border {
 	color: #0d5c63;
-	border: 1px solid #0d5c63;
 }
 .main-block__button_border:hover {
 	background-color: #0d5c63;
