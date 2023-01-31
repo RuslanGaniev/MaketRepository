@@ -594,3 +594,54 @@ display: flex;
 .journey_photo {
 	flex-basis: 30%;
 }
+.footer_contact {
+	display: flex;
+}
+.foooter_photo_contact {
+}
+.footer_container {
+	display: flex;
+	margin-top: 100px;
+}
+._container {
+}
+.footer_info {
+	width: 33%;
+	padding-right: 48px;
+}
+.footer_info_title {
+	padding-bottom: 50px;
+	font-size: 14px;
+	color: #22356F;
+	font-weight: bold;
+}
+.footer_info_text {
+	font-size: 14px;
+	line-height: 2
+}
+.street_footer{
+	padding-bottom: 35px;
+}
+.footer_email{
+	color: #0052C1;
+}
+.footer_contact_us {
+	width: 33%;
+	padding-right: 48px;
+}
+.footer_number {
+
+}
+.footer_hours {
+	width: 33%;
+}
+.footer_down_info {
+	background-color: #62D0DF;
+	height: 80px;
+	width: 100%;
+}
+.footer_down_text{
+	padding-top: 35px;
+	font-size: 14px;
+	color: #ffffff;
+}
