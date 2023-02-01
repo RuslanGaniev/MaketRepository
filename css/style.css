@@ -888,6 +888,7 @@ display: flex;
 .journey_photo {
 	flex-basis: 30%;
 }
+
 @media (max-width: 1219px){
 	.journey_title {
 		font-size: 48px;
