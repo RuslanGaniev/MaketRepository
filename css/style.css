@@ -267,7 +267,7 @@ display: flex;
 ._container {
 }
 .whythrive__body {
-	padding-top: 155px;
+	padding: 155px 0 0 0;
 	margin: 0 107px;
 }
 
@@ -290,6 +290,35 @@ display: flex;
 	
 }
 .whythrive_photo {
+}
+@media (max-width: 1085px){
+	.whythrive{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.whythrive__body{
+		padding: 100px 0;
+	}
+
+}
+@media (max-width: 768px){
+	.whythrive__body{
+		width: 69%;
+    margin: 0 auto;
+}
+.whythrive_photo_img{
+	width: 500px;
+	height: 500px;
+}
+}
+@media (max-width: 480px){
+	.whythrive__body {
+    padding: 50px 0;
+	}
+	.whythrive_photo_img{
+		width: 300px;
+		height: 300px;
+	}
 }
 .main_block_inform {
 	padding: 120px 0;
@@ -319,6 +348,7 @@ display: flex;
 }
 .main_block_inform_sport{
 	display: flex;
+	
 }
 .pink{
 	text-align: center;
@@ -450,6 +480,126 @@ display: flex;
 	top: -30px;
 	left: -28px;
 }
+@media (max-width: 1136px){
+	.main_block_inform_pink::after,
+	.main_block_inform_green::after,
+	.main_block_inform_blue::after,
+	.main_block_inform_sky_blue::after{
+		width: 240px;
+	}
+}
+@media (max-width: 1085px){
+	.main_block_inform_sport{
+		justify-content: center;
+	}
+	.main_block_inform_pink {
+		font-size: 24px;
+	}
+	.main_block_inform_green{
+		font-size: 24px;
+	}
+	.main_block_inform_blue{
+		font-size: 24px;
+	}
+	.main_block_inform_sky_blue{
+		font-size: 24px;
+	} 
+	.main_block_inform_pink::after,
+	.main_block_inform_green::after,
+	.main_block_inform_blue::after,
+	.main_block_inform_sky_blue::after{
+		width: 200px;
+		
+	}
+}
+@media(max-width:979){
+	.main_block_inform_text{
+		width: 45%;
+	}
+}
+@media (max-width: 880px){
+	.pink,.green,.blue,.sky_blue{
+		padding: 80px 0 140px 0;
+	}
+	.main_block_inform_pink::after,
+	.main_block_inform_blue::after,
+	.main_block_inform_sky_blue::after{
+		width: 200px;
+		left: -28px;
+	}
+	.main_block_inform_green::after{
+		width: 200px;
+		left: -45px;
+	}
+}
+@media (max-width: 840px){
+	.pink,.green,.blue,.sky_blue{
+		padding: 80px 0 140px 0;
+	}
+	.main_block_inform_pink::after,
+	.main_block_inform_green::after,
+	.main_block_inform_blue::after,
+	.main_block_inform_sky_blue::after{
+		width: 0px;
+	}
+}
+@media (max-width: 767px){
+	.main_block_inform{
+		padding: 80px 0;
+	}
+	.main_block_inform_pink::before,
+	.main_block_inform_green::before,
+	.main_block_inform_blue::before,
+	.main_block_inform_sky_blue::before{
+		width: 0px;
+		height: 0px;
+	}
+	.main_block_inform_text{
+		font-size: 18px;
+	}
+}
+@media (max-width: 685px){
+	.pink,.green,.blue,.sky_blue{
+		padding: 80px 0 100px 0;
+	}
+	.main_block_inform_pink,
+	.main_block_inform_green,
+	.main_block_inform_blue,
+	.main_block_inform_sky_blue{
+		font-size: 18px;
+	}
+	.main_block_inform_text{
+	font-size: 14px;
+	}
+	.main_block_inform_title{
+		font-size: 12px;
+		padding-left: 80px;
+	}
+	.main_block_inform_help{
+		font-size: 12px;
+	}
+}
+@media (max-width: 685px){
+	.main_block_inform_pink,
+	.main_block_inform_green,
+	.main_block_inform_blue,
+	.main_block_inform_sky_blue{
+		font-size: 14px;
+	}
+}
+@media (max-width: 480px){
+	.main_block_inform_title {
+		padding-left: 50px;
+}
+	.main_block_inform_text{
+		width: 50%;
+}
+}
+@media (max-width: 440px){
+	.main_block_inform_title {
+		padding-left: 20px;
+}
+}
 .main_sports{
 	display: flex;
 }
@@ -503,6 +653,37 @@ display: flex;
 .purple_sport{
 	background-color: #8F00FF;
 }
+@media (max-width: 1150px){
+	.class_sport::after{
+		width: 200px;
+	}
+	.class_sport::before{
+		width: 0px;
+		height: 0px;
+	}
+}
+@media (max-width: 992px){
+	.class_sport{
+		padding: 80px 0 140px 0;
+	}
+	.class_sport::after{
+		width: 160px;
+	}
+}
+@media (max-width: 767px){
+	.class_sport{
+		font-size: 24px;
+	}
+	.class_sport::after{
+		width: 0px;
+	}
+}
+@media (max-width: 480px){
+	.class_sport{
+		font-size: 14px;
+		padding: 80px 0 100px 0;
+	}
+}
 .main_inform_text{
 	padding: 75px 0;
 }
@@ -531,10 +712,77 @@ display: flex;
 	font-size: 16px;
 	color: rgba(34, 53, 111, 0.5);
 }
+@media (max-width: 1015px){
+	.main_text_title{
+		font-size: 22px ;
+	}
+}
+@media (max-width: 895px){
+	.main_text_group,
+	.main_text_group2{
+		margin-bottom: 60px;
+	}
+	.main_text_group:not(:last-child),
+	.main_text_group2:not(:last-child){
+		margin-right: 120px;
+	}
+	.main_text{
+		font-size: 14px;
+	}
+}
+@media (max-width: 767px){
+	.main_inform_text{
+		padding: 35px 0;
+	}
+	.main_text_group,
+	.main_text_group2{
+		margin-bottom: 30px;
+	}
+	.main_text_group:not(:last-child),
+	.main_text_group2:not(:last-child){
+		margin-right: 80px;
+	}
+	.main_text{
+		font-size: 12px;
+	}
+	.main_text_title{
+		font-size: 18px ;
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 630px){
+	.main_text_group,
+	.main_text_group2{
+		margin-bottom: 20px;
+	}
+	.main_text_group:not(:last-child),
+	.main_text_group2:not(:last-child){
+		margin-right: 30px;
+	}
+	.main_text_title{
+		font-size: 16px ;
+	}
+}
+@media (max-width: 480px){
+	.main_text_title{
+		font-size: 14px ;
+		margin-bottom: 5px;
+	}
+	.main_text{
+		font-size: 10px;
+	}
+	.main_text_group,
+	.main_text_group2{
+		margin-bottom: 10px;
+	}
+	.main_text_group:not(:last-child),
+	.main_text_group2:not(:last-child){
+		margin-right: 15px;
+	}
+}
 .main_inform_thrivetalk{
 display: flex;
 }
-
 .inform_thrive_talk_photo {
 	margin-right: 7%;
 }
@@ -559,6 +807,52 @@ display: flex;
 .statistic_down_text {
 	font-size: 16px;
 	color: #FAB63E;
+}
+@media (max-width: 992px){
+	.thrive_talk_photo{
+		height: 600px;
+	}
+	.statistic_text{
+		font-size: 24px;
+	}
+	.statistic_title{
+		margin-bottom: 24%;
+	}
+}
+@media (max-width: 767px){
+	.thrive_talk_photo{
+		height: 600px;
+		width: 360px;
+	}
+}
+@media (max-width: 650px){
+	.thrive_talk_photo{
+		height: 400px;
+		width: 240px;
+	}
+	.statistic_text{
+		font-size: 18px;
+	}
+	.statistic_title{
+		margin-bottom: 24%;
+	}
+}
+@media (max-width: 480px){
+	.thrive_talk_photo{
+		height: 300px;
+		width: 180px;
+	}
+	.statistic_text{
+		font-size: 14px;
+		margin-bottom: 15%;
+	}
+	.statistic_title{
+		font-size: 8px;
+		margin-bottom: 18%;
+	}
+	.statistic_down_text {
+		font-size: 8px;
+	}
 }
 .main_journey {
 	display: flex;
@@ -593,6 +887,77 @@ display: flex;
 }
 .journey_photo {
 	flex-basis: 30%;
+}
+@media (max-width: 1219px){
+	.journey_title {
+		font-size: 48px;
+		white-space: nowrap;
+	}
+	.journey_text_info{
+		font-size: 28px;
+	}
+}
+@media (max-width: 992px){
+	.photo_journey{
+		height: 600px;
+	}
+	.journey_title {
+		font-size: 36px;
+		white-space: nowrap;
+	}
+	.journey_text_info{
+		font-size: 18px;
+	}
+}
+@media (max-width: 767px){
+	.photo_journey{
+		height: 400px;
+		width: 240px;
+	}
+	.journer_up{
+		margin-bottom: 25%;
+	}
+	.journey_title {
+		font-size: 28px;
+		white-space: nowrap;
+	}
+	.journey_text_info{
+		font-size: 14px;
+	}
+}
+@media (max-width: 585px){
+	.photo_journey{
+		height: 300px;
+		width: 180px;
+	}
+	.journer_up{
+		margin-bottom: 25%;
+	}
+	.journey_title {
+		font-size: 24px;
+		white-space: nowrap;
+	}
+	.journey_text_info{
+		font-size: 12px;
+	}
+}
+@media (max-width: 480px){
+	.journey_text{
+		margin: 15% 4% 0 4%;
+	}
+	.journey_title {
+		font-size: 18px;
+		white-space: nowrap;
+	}
+	.journey_text_info{
+		font-size: 8px;
+	}
+	.journer_up{
+		font-size: 14px;
+	}
+	.journey_down_text{
+		font-size: 14px;
+	}
 }
 .footer_contact {
 	display: flex;
@@ -630,16 +995,6 @@ display: flex;
 	padding-right: 48px;
 }
 .footer_number {
-
-}
-.footer_hours {
-	width: 33%;
-}
-.footer_down_info {
-	background-color: #62D0DF;
-	height: 80px;
-	width: 100%;
-}
 .footer_down_text{
 	padding-top: 35px;
 	font-size: 14px;
@@ -706,4 +1061,4 @@ display: flex;
 		padding-right:20px;
 	}
 
-}
+
